@@ -2,17 +2,17 @@ module main
 
 go 1.17
 
-replace github.com/Azure/azure-sdk-for-go/sdk/azcore => ../../../../../azcore
+replace github.com/c-brooks/azure-sdk-for-go/sdk/azcore => ../../../../../azcore
 
-replace github.com/Azure/azure-sdk-for-go/sdk/azidentity => ../../../../../azidentity
+replace github.com/c-brooks/azure-sdk-for-go/sdk/azidentity => ../../../../../azidentity
 
 require (
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v0.21.1
-	github.com/Azure/azure-sdk-for-go/sdk/azidentity v0.13.1
+	github.com/c-brooks/azure-sdk-for-go/sdk/azcore v0.21.1
+	github.com/c-brooks/azure-sdk-for-go/sdk/azidentity v0.13.1
 )
 
 require (
-	github.com/Azure/azure-sdk-for-go/sdk/internal v0.9.1 // indirect
+	github.com/c-brooks/azure-sdk-for-go/sdk/internal v0.9.1 // indirect
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.4.0 // indirect
 	github.com/golang-jwt/jwt v3.2.1+incompatible // indirect
 	github.com/google/uuid v1.1.1 // indirect

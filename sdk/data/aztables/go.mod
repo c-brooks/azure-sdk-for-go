@@ -1,11 +1,11 @@
-module github.com/Azure/azure-sdk-for-go/sdk/data/aztables
+module github.com/c-brooks/azure-sdk-for-go/sdk/data/aztables
 
 go 1.18
 
 require (
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.3.0
-	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.0.0
-	github.com/Azure/azure-sdk-for-go/sdk/internal v1.1.1
+	github.com/c-brooks/azure-sdk-for-go/sdk/azcore v1.3.0
+	github.com/c-brooks/azure-sdk-for-go/sdk/azidentity v1.0.0
+	github.com/c-brooks/azure-sdk-for-go/sdk/internal v1.1.1
 	github.com/stretchr/testify v1.7.0
 )
 
