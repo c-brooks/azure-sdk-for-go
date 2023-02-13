@@ -239,10 +239,11 @@ func (c *Client) sendPostRequest(
 		return nil, err
 	}
 
-	err = c.attachContent(content, req)
-	if err != nil {
-		return nil, err
-	}
+	if content != nil {
+		err = c.attachContent(content, req)
+		if err != nil {
+			return nil, err
+		}
 
 	return c.executeAndEnsureSuccessResponse(req)
 }

@@ -22,8 +22,10 @@ const (
 	pathSegmentDocument            string = "docs"
 	pathSegmentClientEncryptionKey string = "clientencryptionkeys"
 	pathSegmentOffer               string = "offers"
+	pathSegmentOperation           string = "operations"
 	pathSegmentDatabaseAccount     string = "databaseaccount"
 	pathSegmentPartitionKeyRange   string = "pkranges"
+	pathSegmentPartitionKeyDelete  string = "partitionkeydelete"
 )
 
 // generatePathForNameBased generates the URL path for a request based on the current operation
@@ -118,6 +120,10 @@ func generatePathForNameBased(resourceType resourceType, ownerOrResourceId strin
 
 	if resourceType == resourceTypeClientEncryptionKey {
 		return ownerOrResourceId, nil
+	}
+
+	if resourceType == resourceTypePartitionKey {
+		return pathSegmentOperation + "/" + pathSegmentPartitionKeyDelete, nil
 	}
 
 	return "", fmt.Errorf("INVALID resource type %v, isFeed %v, resourceId %v", resourceType, isFeed, ownerOrResourceId)
