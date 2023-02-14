@@ -1,17 +1,17 @@
-module github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v2
+module github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/network/armnetwork/v2
 
 go 1.18
 
 require (
-	github.com/c-brooks/azure-sdk-for-go/sdk/azcore v1.0.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/azidentity v1.0.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/internal v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/internal v1.0.0
 	github.com/stretchr/testify v1.7.0
 )
 
 require (
-	github.com/c-brooks/azure-sdk-for-go/sdk/internal v1.0.0 // indirect
-	github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/resources/armresources v1.0.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources v1.0.0 // indirect
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.4.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/dnaeon/go-vcr v1.1.0 // indirect

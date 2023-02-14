@@ -1,11 +1,11 @@
-module github.com/c-brooks/azure-sdk-for-go/sdk/containers/azcontainerregistry
+module github.com/Azure/azure-sdk-for-go/sdk/containers/azcontainerregistry
 
 go 1.18
 
 require (
-	github.com/c-brooks/azure-sdk-for-go/sdk/azcore v1.3.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/azidentity v1.2.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/internal v1.1.2
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.3.0
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.2.0
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.1.2
 	github.com/stretchr/testify v1.8.1
 )
 

@@ -1,11 +1,11 @@
-module github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/testdata/perf
+module github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/testdata/perf
 
 go 1.18
 
 require (
-	github.com/c-brooks/azure-sdk-for-go/sdk/azcore v1.3.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/internal v1.1.1
-	github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob v0.4.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.3.0
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.1.1
+	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v0.4.0
 )
 
 require (
@@ -13,4 +13,4 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 )
 
-replace github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob => ../../.
+replace github.com/Azure/azure-sdk-for-go/sdk/storage/azblob => ../../.

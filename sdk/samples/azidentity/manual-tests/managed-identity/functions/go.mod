@@ -2,17 +2,17 @@ module github.com/Azure/azure-sdk-for-python/sdk/samples/azidentity/manual-tests
 
 go 1.18
 
-replace github.com/c-brooks/azure-sdk-for-go/sdk/azidentity => ../../../../../azidentity
+replace github.com/Azure/azure-sdk-for-go/sdk/azidentity => ../../../../../azidentity
 
 require (
-	github.com/c-brooks/azure-sdk-for-go/sdk/azidentity v0.14.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/keyvault/azsecrets v0.7.0
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v0.14.0
+	github.com/Azure/azure-sdk-for-go/sdk/keyvault/azsecrets v0.7.0
 )
 
 require (
-	github.com/c-brooks/azure-sdk-for-go/sdk/azcore v0.23.0 // indirect
-	github.com/c-brooks/azure-sdk-for-go/sdk/internal v0.9.2 // indirect
-	github.com/c-brooks/azure-sdk-for-go/sdk/keyvault/internal v0.3.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v0.23.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/internal v0.9.2 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/keyvault/internal v0.3.0 // indirect
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.4.0 // indirect
 	github.com/golang-jwt/jwt v3.2.1+incompatible // indirect
 	github.com/google/uuid v1.1.1 // indirect

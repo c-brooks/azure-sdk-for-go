@@ -1,12 +1,12 @@
-module github.com/c-brooks/azure-sdk-for-go/sdk/data/azcosmos
+module github.com/Azure/azure-sdk-for-go/sdk/data/azcosmos
 
 go 1.18
 
 require (
-	github.com/c-brooks/azure-sdk-for-go v63.2.0+incompatible
-	github.com/c-brooks/azure-sdk-for-go/sdk/azcore v1.0.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/azidentity v1.0.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/internal v1.0.0
+	github.com/Azure/azure-sdk-for-go v63.2.0+incompatible
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.0
 	github.com/stretchr/testify v1.7.0
 )
 

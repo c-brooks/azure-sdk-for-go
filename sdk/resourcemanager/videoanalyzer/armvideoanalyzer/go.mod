@@ -1,15 +1,15 @@
 // Deprecated: We’re retiring the Azure Video Analyzer preview service; you're advised to transition your applications off of Video Analyzer by 01 December 2022. This SDK is no longer maintained and won’t work after the service is retired. To learn how to transition off, please refer to: https://aka.ms/azsdk/videoanalyzer/transitionoffguidance.
-module github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/videoanalyzer/armvideoanalyzer
+module github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/videoanalyzer/armvideoanalyzer
 
 go 1.18
 
 require (
-	github.com/c-brooks/azure-sdk-for-go/sdk/azcore v1.0.0
-	github.com/c-brooks/azure-sdk-for-go/sdk/azidentity v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.0.0
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.0.0
 )
 
 require (
-	github.com/c-brooks/azure-sdk-for-go/sdk/internal v1.0.0 // indirect
+	github.com/Azure/azure-sdk-for-go/sdk/internal v1.0.0 // indirect
 	github.com/AzureAD/microsoft-authentication-library-for-go v0.4.0 // indirect
 	github.com/golang-jwt/jwt v3.2.1+incompatible // indirect
 	github.com/google/uuid v1.1.1 // indirect
