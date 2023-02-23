@@ -10,8 +10,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
 )
 
 // includeResponsePolicy creates a policy that retrieves the raw HTTP response upon request

@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/buffer"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/encoding"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/buffer"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/encoding"
 )
 
 /*

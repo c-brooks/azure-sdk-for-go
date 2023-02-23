@@ -56,7 +56,7 @@ func execute(rpReadmeFilepath string) error {
 	}
 
 	if !strings.Contains(content, "$(go) && $(track2)") {
-		content += fmt.Sprintf("\n\n``` yaml $(go) && $(track2)\nlicense-header: MICROSOFT_MIT_NO_VERSION\nmodule-name: sdk/resourcemanager/%s/arm%s\nmodule: github.com/Azure/azure-sdk-for-go/$(module-name)\noutput-folder: $(go-sdk-folder)/$(module-name)\nazure-arm: true\n```\n", rpName, rpName)
+		content += fmt.Sprintf("\n\n``` yaml $(go) && $(track2)\nlicense-header: MICROSOFT_MIT_NO_VERSION\nmodule-name: sdk/resourcemanager/%s/arm%s\nmodule: github.com/c-brooks/azure-sdk-for-go/$(module-name)\noutput-folder: $(go-sdk-folder)/$(module-name)\nazure-arm: true\n```\n", rpName, rpName)
 		if err := ioutil.WriteFile(readmeGoFile, []byte(content), 0644); err != nil {
 			return err
 		}

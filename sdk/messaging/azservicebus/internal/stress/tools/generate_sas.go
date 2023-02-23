@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/sas"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/sas"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
 )
 
 func GenerateSas(remainingArgs []string) int {

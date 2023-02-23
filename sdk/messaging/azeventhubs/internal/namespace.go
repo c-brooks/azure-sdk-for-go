@@ -12,15 +12,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/telemetry"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/auth"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/sbauth"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/telemetry"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/auth"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/sbauth"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/utils"
 )
 
 var rootUserAgent = telemetry.Format("azeventhubs", Version)
@@ -33,7 +33,7 @@ type (
 		// is just to make it the first value in the struct
 		// See:
 		//   Godoc: https://pkg.go.dev/sync/atomic#pkg-note-BUG
-		//   PR: https://github.com/Azure/azure-sdk-for-go/pull/16847
+		//   PR: https://github.com/c-brooks/azure-sdk-for-go/pull/16847
 		connID uint64
 
 		FQDN          string

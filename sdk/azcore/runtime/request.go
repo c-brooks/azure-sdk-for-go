@@ -21,9 +21,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
 )
 
 // Base64Encoding is usesd to specify which base-64 encoder/decoder to use when

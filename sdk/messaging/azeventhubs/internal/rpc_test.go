@@ -8,8 +8,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
 	"github.com/stretchr/testify/require"
 )
 

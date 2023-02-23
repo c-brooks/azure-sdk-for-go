@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/auth"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/conn"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/sas"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/auth"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/conn"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/sas"
 )
 
 // TokenProvider handles access tokens and expiration calculation for SAS

@@ -8,21 +8,21 @@ package service
 
 import (
 	"context"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/bloberror"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/bloberror"
 	"net/http"
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/base"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/shared"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/sas"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/container"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/base"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/sas"
 )
 
 // ClientOptions contains the optional parameters when creating a Client.

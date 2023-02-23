@@ -12,8 +12,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armsubscriptions"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/resources/armsubscriptions"
 )
 
 // Generated from example definition: https://github.com/Azure/azure-rest-api-specs/tree/main/specification/resources/resource-manager/Microsoft.Resources/stable/2021-01-01/examples/CheckResourceName.json

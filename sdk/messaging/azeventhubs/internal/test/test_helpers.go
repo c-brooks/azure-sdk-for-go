@@ -15,8 +15,8 @@ import (
 	"testing"
 	"time"
 
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
 	"github.com/joho/godotenv"
 	"github.com/stretchr/testify/require"
 )

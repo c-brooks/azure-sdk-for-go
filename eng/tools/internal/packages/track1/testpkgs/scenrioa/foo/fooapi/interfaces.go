@@ -3,7 +3,7 @@ package fooapi
 import (
 	"context"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/packages/track1/testpkgs/scenrioa/foo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/packages/track1/testpkgs/scenrioa/foo"
 )
 
 // GatewaysClientAPI ...

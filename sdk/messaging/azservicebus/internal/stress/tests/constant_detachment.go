@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
 )
 
 func ConstantDetachment(remainingArgs []string) {
@@ -35,7 +35,7 @@ func ConstantDetachment(remainingArgs []string) {
 	// this number isn't too special, but it gives us long enough so that
 	// we are guaranteed that these detaches will interfere with our receiving.
 	// Bug filed for this particular test, pertaining to settlement counting:
-	//   https://github.com/Azure/azure-sdk-for-go/issues/17945)
+	//   https://github.com/c-brooks/azure-sdk-for-go/issues/17945)
 	const maxMessages = 20000
 
 	shared.MustGenerateMessages(sc, sender, maxMessages, 1024, stats)

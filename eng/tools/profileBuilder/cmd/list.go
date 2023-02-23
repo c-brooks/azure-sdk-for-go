@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/dirs"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/modinfo"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/profileBuilder/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/dirs"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/modinfo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/profileBuilder/model"
 	"github.com/spf13/cobra"
 )
 

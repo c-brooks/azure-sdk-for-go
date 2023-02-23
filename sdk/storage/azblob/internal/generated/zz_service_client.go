@@ -12,8 +12,8 @@ package generated
 import (
 	"context"
 	"fmt"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 	"io"
 	"net/http"
 	"strconv"

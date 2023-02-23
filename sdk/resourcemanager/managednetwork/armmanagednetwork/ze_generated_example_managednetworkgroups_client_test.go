@@ -12,9 +12,9 @@ import (
 	"context"
 	"log"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/managednetwork/armmanagednetwork"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/managednetwork/armmanagednetwork"
 )
 
 // Generated from example definition: https://github.com/Azure/azure-rest-api-specs/tree/main/specification/managednetwork/resource-manager/Microsoft.ManagedNetwork/preview/2019-06-01-preview/examples/ManagedNetworkGroup/ManagedNetworkGroupsGet.json

@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/temporal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/temporal"
 )
 
 // cosmosBearerTokenPolicy authorizes requests with bearer tokens acquired from a TokenCredential.

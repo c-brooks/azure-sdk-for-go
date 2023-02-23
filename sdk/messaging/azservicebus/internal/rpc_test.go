@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/amqpwrap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/amqpwrap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/test"
 	"github.com/stretchr/testify/require"
 )
 

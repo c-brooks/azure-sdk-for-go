@@ -9,7 +9,7 @@ package azidentity_test
 import (
 	"log"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
 )
 
 // Helpers and variables to keep the examples tidy

@@ -12,8 +12,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/redhatopenshift/armredhatopenshift"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/redhatopenshift/armredhatopenshift"
 )
 
 // Generated from example definition: https://github.com/Azure/azure-rest-api-specs/tree/main/specification/redhatopenshift/resource-manager/Microsoft.RedHatOpenShift/stable/2022-09-04/examples/OpenShiftVersions_List.json

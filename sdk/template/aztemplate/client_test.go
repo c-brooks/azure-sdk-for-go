@@ -10,7 +10,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
 )
 
 func TestOutput(t *testing.T) {

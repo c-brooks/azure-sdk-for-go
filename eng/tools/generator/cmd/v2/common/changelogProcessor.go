@@ -14,18 +14,18 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest/model"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/repo"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/delta"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/repo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/delta"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/config"
 	"github.com/go-git/go-git/v5/plumbing"
 )
 
 const (
-	sdk_tag_fetch_url = "https://api.github.com/repos/Azure/azure-sdk-for-go/git/refs/tags"
-	sdk_remote_url    = "https://github.com/Azure/azure-sdk-for-go.git"
+	sdk_tag_fetch_url = "https://api.github.com/repos/c-brooks/azure-sdk-for-go/git/refs/tags"
+	sdk_remote_url    = "https://github.com/c-brooks/azure-sdk-for-go.git"
 )
 
 func GetAllVersionTags(rpName, namespaceName string) ([]string, error) {

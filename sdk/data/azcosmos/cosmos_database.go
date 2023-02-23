@@ -7,7 +7,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 )
 
 // DatabaseClient lets you perform read, update, change throughput, and delete database operations.

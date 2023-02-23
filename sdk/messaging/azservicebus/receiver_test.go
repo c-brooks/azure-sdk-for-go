@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/test"
 	"github.com/stretchr/testify/require"
 )
 
@@ -587,7 +587,7 @@ func TestReceiverAMQPDataTypes(t *testing.T) {
 			// - TypeCodeDecimal64
 			// - TypeCodeDecimal128
 			// - TypeCodeChar  (although note below that a 'character' does work, although it's not a TypecodeChar value)
-			// https://github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp/blob/e0c6c63fb01e6642686ee4f8e7412da042bf35dd/internal/encoding/decode.go#L568
+			// https://github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp/blob/e0c6c63fb01e6642686ee4f8e7412da042bf35dd/internal/encoding/decode.go#L568
 			"timestamp": expectedTime,
 
 			"byte":   byte(128),

@@ -3,7 +3,7 @@
 
 package azblob
 
-import "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
 
 const (
 	// EventUpload is used for logging events related to upload operation.

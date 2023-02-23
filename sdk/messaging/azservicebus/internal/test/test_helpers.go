@@ -14,9 +14,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/atom"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/atom"
 	"github.com/stretchr/testify/require"
 )
 

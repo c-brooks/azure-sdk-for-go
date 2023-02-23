@@ -4,7 +4,7 @@
 package azservicebus
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/exported"
 )
 
 // Code is an error code, usable by consuming code to work with

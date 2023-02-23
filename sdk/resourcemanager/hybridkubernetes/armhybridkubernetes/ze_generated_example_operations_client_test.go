@@ -12,8 +12,8 @@ import (
 	"context"
 	"log"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/hybridkubernetes/armhybridkubernetes"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/hybridkubernetes/armhybridkubernetes"
 )
 
 // Generated from example definition: https://github.com/Azure/azure-rest-api-specs/tree/main/specification/hybridkubernetes/resource-manager/Microsoft.Kubernetes/stable/2021-10-01/examples/ListConnectedClusterOperationsExample.json

@@ -2,7 +2,7 @@
 // Portions Copyright (c) Microsoft Corporation
 package amqp
 
-import "github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/encoding"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/encoding"
 
 // Sender Settlement Modes
 const (

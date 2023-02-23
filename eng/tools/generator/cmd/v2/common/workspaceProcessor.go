@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/repo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/repo"
 )
 
 var (

@@ -10,10 +10,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/base"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/container"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/base"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/shared"
 )
 
 // ContainerClient provides lease functionality for the underlying container client.

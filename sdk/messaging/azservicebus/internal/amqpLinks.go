@@ -10,10 +10,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/amqpwrap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/amqpwrap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/utils"
 )
 
 type LinksWithID struct {
@@ -69,7 +69,7 @@ type AMQPLinksImpl struct {
 	// is just to make it the first value in the struct
 	// See:
 	//   Godoc: https://pkg.go.dev/sync/atomic#pkg-note-BUG
-	//   PR: https://github.com/Azure/azure-sdk-for-go/pull/16847
+	//   PR: https://github.com/c-brooks/azure-sdk-for-go/pull/16847
 	id LinkID
 
 	entityPath     string

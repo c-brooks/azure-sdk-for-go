@@ -14,11 +14,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/bitmap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/buffer"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/encoding"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/frames"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/bitmap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/buffer"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/encoding"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/frames"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp/internal/log"
 )
 
 // Default connection options

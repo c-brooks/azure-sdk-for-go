@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
 	"github.com/stretchr/testify/require"
 )
 

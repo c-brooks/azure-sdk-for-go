@@ -12,12 +12,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/uuid"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/uuid"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp"
 )
 
 const (

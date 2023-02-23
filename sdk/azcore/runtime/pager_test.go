@@ -13,8 +13,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/mock"
 	"github.com/stretchr/testify/require"
 )
 

@@ -9,9 +9,9 @@ package blob
 import (
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/shared"
 )
 
 // SharedKeyCredential contains an account's name and its primary or secondary key.

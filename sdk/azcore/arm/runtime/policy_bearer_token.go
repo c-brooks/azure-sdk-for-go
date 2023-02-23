@@ -10,11 +10,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	armpolicy "github.com/Azure/azure-sdk-for-go/sdk/azcore/arm/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared"
-	azpolicy "github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/temporal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	armpolicy "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/arm/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/shared"
+	azpolicy "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/temporal"
 )
 
 type acquiringResourceState struct {

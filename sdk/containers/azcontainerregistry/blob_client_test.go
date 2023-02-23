@@ -9,7 +9,7 @@ package azcontainerregistry
 import (
 	"bytes"
 	"context"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/streaming"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/streaming"
 	"github.com/stretchr/testify/require"
 	"io"
 	"testing"

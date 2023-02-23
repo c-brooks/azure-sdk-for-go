@@ -6,7 +6,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp/internal/encoding"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp/internal/encoding"
 )
 
 // Error Conditions

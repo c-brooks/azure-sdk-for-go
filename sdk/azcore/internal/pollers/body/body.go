@@ -11,9 +11,9 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/pollers"
 )
 
 // Kind is the identifier of this type in a resume token.

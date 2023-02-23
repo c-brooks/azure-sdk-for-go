@@ -6,7 +6,7 @@ package main
 import (
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd"
 )
 
 func main() {

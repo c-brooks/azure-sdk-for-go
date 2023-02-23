@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/streaming"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/recording"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/bloberror"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blockblob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/streaming"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/recording"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/bloberror"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blockblob"
 	"github.com/stretchr/testify/require"
 )
 

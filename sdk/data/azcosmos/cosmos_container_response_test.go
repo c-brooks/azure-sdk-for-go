@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	azruntime "github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	azruntime "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/mock"
 )
 
 func TestContainerResponseParsing(t *testing.T) {

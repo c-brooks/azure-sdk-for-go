@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	azruntime "github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	azruntime "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 	"github.com/stretchr/testify/assert"
 )
 

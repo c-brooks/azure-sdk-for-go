@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/issue/query"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/v2/common"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/config"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/issue/query"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/v2/common"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/config"
 	"github.com/hashicorp/go-multierror"
 )
 

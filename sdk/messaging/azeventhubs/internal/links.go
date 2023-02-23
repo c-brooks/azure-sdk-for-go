@@ -9,11 +9,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/utils"
 )
 
 type AMQPLink interface {

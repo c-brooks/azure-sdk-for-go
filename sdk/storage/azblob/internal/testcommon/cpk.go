@@ -10,9 +10,9 @@ package testcommon
 import (
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/recording"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/recording"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blob"
 	"github.com/stretchr/testify/require"
 )
 

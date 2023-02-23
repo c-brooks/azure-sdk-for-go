@@ -13,11 +13,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/checkpoints"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/blob"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/checkpoints"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/blob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
 	"github.com/stretchr/testify/require"
 )
 

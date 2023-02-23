@@ -9,11 +9,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
-	"github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/eventhub/armeventhub"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/eventhub/armeventhub"
 	"github.com/stretchr/testify/require"
 )
 

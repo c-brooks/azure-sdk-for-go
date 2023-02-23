@@ -6,9 +6,9 @@ package azservicebus
 import (
 	"context"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/utils"
 )
 
 type settler interface {

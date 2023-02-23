@@ -10,14 +10,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/telemetry"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/amqpwrap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/auth"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/sbauth"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/telemetry"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/amqpwrap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/auth"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/sbauth"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/test"
 	"github.com/stretchr/testify/require"
 )
 

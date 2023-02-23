@@ -13,9 +13,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
 )
 
 func SendAndReceiveDrain(remainingArgs []string) {
@@ -31,7 +31,7 @@ func SendAndReceiveDrain(remainingArgs []string) {
 	// set a long lock duration to make it obvious when a message is being lost in our
 	// internal buffer or somewhere along the way.
 	// This mimics the scenario mentioned in this issue filed by a customer:
-	// https://github.com/Azure/azure-sdk-for-go/issues/17853
+	// https://github.com/c-brooks/azure-sdk-for-go/issues/17853
 	lockDuration := "PT5M"
 
 	adminClient := shared.MustCreateAutoDeletingQueue(sc, queueName, &admin.QueueProperties{

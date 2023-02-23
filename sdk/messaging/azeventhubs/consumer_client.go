@@ -9,11 +9,11 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/uuid"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/uuid"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/amqpwrap"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
 )
 
 // Error represents an Event Hub specific error.
@@ -72,7 +72,7 @@ type ConsumerClient struct {
 // The fullyQualifiedNamespace is the Event Hubs namespace name (ex: myeventhub.servicebus.windows.net)
 // The credential is one of the credentials in the [azidentity] package.
 //
-// [azidentity]: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/azidentity
+// [azidentity]: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/azidentity
 func NewConsumerClient(fullyQualifiedNamespace string, eventHub string, consumerGroup string, credential azcore.TokenCredential, options *ConsumerClientOptions) (*ConsumerClient, error) {
 	return newConsumerClient(consumerClientArgs{
 		consumerGroup:           consumerGroup,

@@ -3,7 +3,7 @@
 
 package azeventhubs
 
-import "github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
 
 // ConnectionStringProperties are the properties of a connection string
 // as returned by [ParseConnectionString].

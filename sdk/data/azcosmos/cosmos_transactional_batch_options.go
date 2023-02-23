@@ -4,7 +4,7 @@
 package azcosmos
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
 )
 
 // TransactionalBatchOptions includes options for transactional batch operations.

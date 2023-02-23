@@ -9,11 +9,11 @@ package azcore
 import (
 	"reflect"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/tracing"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/tracing"
 )
 
 // AccessToken represents an Azure service bearer access token with expiry information.

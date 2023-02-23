@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/issue/link"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/v2/common"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/config"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/config/validate"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/flags"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/repo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/issue/link"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/v2/common"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/config"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/config/validate"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/flags"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/repo"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
@@ -79,7 +79,7 @@ type Flags struct {
 func BindFlags(flagSet *pflag.FlagSet) {
 	flagSet.String("version-number", "", "Specify the version number of this release")
 	flagSet.String("package-title", "", "Specifies the title of this package")
-	flagSet.String("sdk-repo", "https://github.com/Azure/azure-sdk-for-go", "Specifies the sdk repo URL for generation")
+	flagSet.String("sdk-repo", "https://github.com/c-brooks/azure-sdk-for-go", "Specifies the sdk repo URL for generation")
 	flagSet.String("spec-repo", "https://github.com/Azure/azure-rest-api-specs", "Specifies the swagger repo URL for generation")
 	flagSet.String("spec-rp-name", "", "Specifies the swagger spec RP name, default is RP name")
 	flagSet.String("release-date", "", "Specifies the release date in changelog")

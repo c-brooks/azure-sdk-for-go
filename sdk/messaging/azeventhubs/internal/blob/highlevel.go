@@ -13,9 +13,9 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/streaming"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/uuid"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/blob/internal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/streaming"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/uuid"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/blob/internal"
 
 	"bytes"
 	"errors"

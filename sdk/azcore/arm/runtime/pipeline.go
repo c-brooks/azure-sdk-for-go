@@ -10,11 +10,11 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	armpolicy "github.com/Azure/azure-sdk-for-go/sdk/azcore/arm/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud"
-	azpolicy "github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	azruntime "github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	armpolicy "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/arm/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/cloud"
+	azpolicy "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	azruntime "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 )
 
 // NewPipeline creates a pipeline from connection options. Policies from ClientOptions are

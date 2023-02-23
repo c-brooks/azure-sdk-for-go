@@ -13,10 +13,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/streaming"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/pageblob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/streaming"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/pageblob"
 )
 
 func handleError(err error) {

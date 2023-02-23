@@ -10,7 +10,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/eh/stress/tests"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/eh/stress/tests"
 )
 
 func main() {

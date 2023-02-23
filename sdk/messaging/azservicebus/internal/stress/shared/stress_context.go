@@ -12,8 +12,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/azcore/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus"
 	"github.com/microsoft/ApplicationInsights-Go/appinsights"
 )
 

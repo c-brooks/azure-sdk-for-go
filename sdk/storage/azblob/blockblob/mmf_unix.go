@@ -32,7 +32,7 @@ func (m *mmb) delete() {
 	*m = nil
 	if err != nil {
 		// if we get here, there is likely memory corruption.
-		// please open an issue https://github.com/Azure/azure-sdk-for-go/issues
+		// please open an issue https://github.com/c-brooks/azure-sdk-for-go/issues
 		panic(fmt.Sprintf("Munmap error: %v", err))
 	}
 }

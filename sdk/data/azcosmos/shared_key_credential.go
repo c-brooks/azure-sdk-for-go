@@ -14,9 +14,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/azcore/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
 )
 
 // NewKeyCredential creates an KeyCredential containing the

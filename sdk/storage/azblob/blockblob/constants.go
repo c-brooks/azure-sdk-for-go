@@ -6,7 +6,7 @@
 
 package blockblob
 
-import "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 
 const (
 	// CountToEnd specifies the end of the file.

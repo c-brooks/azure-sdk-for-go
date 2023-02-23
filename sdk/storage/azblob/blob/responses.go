@@ -10,7 +10,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 )
 
 // DownloadResponse contains the response from method BlobClient.Download.

@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
 )
 
 func TestUsernamePasswordCredential_InvalidTenantID(t *testing.T) {

@@ -186,7 +186,7 @@ func TestCreateModuleNameFromPath(t *testing.T) {
 	if err != nil {
 		t.Fatalf("expected nil error, got: %v", err)
 	}
-	const expected = "github.com/Azure/azure-sdk-for-go/services/foo/apiver/foo"
+	const expected = "github.com/c-brooks/azure-sdk-for-go/services/foo/apiver/foo"
 	if n != expected {
 		t.Fatalf("expected '%s' got '%s'", expected, n)
 	}

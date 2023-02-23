@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/data/aztables"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/perf"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/uuid"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/data/aztables"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/perf"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/uuid"
 )
 
 var stringEntity = map[string]string{

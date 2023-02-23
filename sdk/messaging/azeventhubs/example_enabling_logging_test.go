@@ -6,8 +6,8 @@ package azeventhubs_test
 import (
 	"fmt"
 
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/azcore/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs"
 )
 
 func Example_enableLogging() {

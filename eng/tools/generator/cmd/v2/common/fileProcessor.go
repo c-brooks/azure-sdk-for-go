@@ -15,9 +15,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest/model"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/common"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/common"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
 	"github.com/Masterminds/semver"
 )
 
@@ -379,7 +379,7 @@ func UpdateModuleDefinition(packageRootPath, rpName, namespaceName string, versi
 				line = strings.TrimRight(line, "\r")
 				parts := strings.Split(line, "/")
 				if parts[len(parts)-1] != fmt.Sprintf("v%d", version.Major()) {
-					lines[i] = fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/%s/%s/v%d", rpName, namespaceName, version.Major())
+					lines[i] = fmt.Sprintf("module github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/%s/%s/v%d", rpName, namespaceName, version.Major())
 				}
 				break
 			}

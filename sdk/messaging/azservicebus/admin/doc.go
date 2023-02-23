@@ -6,5 +6,5 @@
 
 // Package admin provides `Client`, which can create and manage Queues, Topics and
 // Subscriptions.
-// NOTE: For sending and receiving messages with Azure ServiceBus use the `Client` in the `github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus` package.
+// NOTE: For sending and receiving messages with Azure ServiceBus use the `Client` in the `github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus` package.
 package admin

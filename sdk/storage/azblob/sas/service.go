@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
 )
 
 // BlobSignatureValues is used to generate a Shared Access Signature (SAS) for an Azure Storage container or blob.

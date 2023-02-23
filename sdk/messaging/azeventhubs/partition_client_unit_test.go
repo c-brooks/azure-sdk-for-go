@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp"
 	"github.com/stretchr/testify/require"
 )
 

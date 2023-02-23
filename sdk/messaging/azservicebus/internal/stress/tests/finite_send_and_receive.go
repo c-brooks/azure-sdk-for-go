@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
 )
 
 func FiniteSendAndReceiveTest(remainingArgs []string) {

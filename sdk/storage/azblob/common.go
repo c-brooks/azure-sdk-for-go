@@ -7,8 +7,8 @@
 package azblob
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/sas"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/sas"
 )
 
 // SharedKeyCredential contains an account's name and its primary or secondary key.

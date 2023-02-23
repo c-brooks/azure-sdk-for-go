@@ -7,8 +7,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/uuid"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/uuid"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/go-amqp"
 )
 
 // ErrMessageTooLarge is returned when a message cannot fit into a batch when using MessageBatch.Add()

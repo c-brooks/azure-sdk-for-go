@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest/model"
 )
 
 // MetadataProcessError ...

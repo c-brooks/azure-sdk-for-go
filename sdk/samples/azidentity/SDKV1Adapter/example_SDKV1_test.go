@@ -7,14 +7,14 @@ import (
 	"context"
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/services/subscription/mgmt/2020-09-01/subscription"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/services/subscription/mgmt/2020-09-01/subscription"
 	"github.com/jongio/azidext/go/azidext"
 )
 
 // Please note that the examples in this file use the Azure SDK for Go V1 code base with
 // the azidentity package from the Azure SDK for Go V2. New applications should simply
-// use only V2 modules, such as github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/resources/armresources
+// use only V2 modules, such as github.com/c-brooks/azure-sdk-for-go/sdk/resourcemanager/resources/armresources
 
 var (
 	clientID     = os.Getenv("AZURE_CLIENT_ID")

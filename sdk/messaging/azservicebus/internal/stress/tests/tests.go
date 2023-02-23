@@ -10,7 +10,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
 )
 
 // Simple query to view some of the stats reported by these stress tests.

@@ -10,7 +10,7 @@ import (
 	"crypto/hmac"
 	"crypto/sha256"
 	"encoding/base64"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 )
 
 // NewUserDelegationCredential creates a new UserDelegationCredential using a Storage account's Name and a user delegation Key from it

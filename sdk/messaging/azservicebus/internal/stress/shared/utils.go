@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/admin"
 	"github.com/joho/godotenv"
 )
 

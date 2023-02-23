@@ -20,14 +20,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/atom"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/auth"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/conn"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/test"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/atom"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/auth"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/conn"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/utils"
 	"github.com/stretchr/testify/require"
 )
 

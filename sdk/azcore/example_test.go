@@ -15,9 +15,9 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 )
 
 // false positive by linter

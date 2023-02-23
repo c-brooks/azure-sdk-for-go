@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/keyvault/azsecrets"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/keyvault/azsecrets"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {

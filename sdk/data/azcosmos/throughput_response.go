@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 
-	azruntime "github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	azruntime "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 )
 
 // ThroughputResponse represents the response from a throughput request.

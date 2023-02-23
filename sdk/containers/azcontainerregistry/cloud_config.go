@@ -6,7 +6,7 @@
 
 package azcontainerregistry
 
-import "github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/cloud"
 
 const (
 	// ServiceName is the cloud service name for Azure Container Registry

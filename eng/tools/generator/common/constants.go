@@ -12,5 +12,5 @@ const (
 	MetadataFilename  = "_meta.json"
 	RelativeVersionGo = "version/version.go"
 
-	Root = "github.com/Azure/azure-sdk-for-go"
+	Root = "github.com/c-brooks/azure-sdk-for-go"
 )

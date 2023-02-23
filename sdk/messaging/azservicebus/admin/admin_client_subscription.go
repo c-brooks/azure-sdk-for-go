@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/atom"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/auth"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/atom"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/auth"
 )
 
 // SubscriptionProperties represents the static properties of the subscription.

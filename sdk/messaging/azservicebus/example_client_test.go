@@ -9,9 +9,9 @@ import (
 	"net"
 	"time"
 
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/azcore/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus"
 	"nhooyr.io/websocket"
 )
 
@@ -20,7 +20,7 @@ func ExampleNewClient() {
 	// look at `NewClientFromConnectionString` instead.
 
 	// For more information about the DefaultAzureCredential:
-	// https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/azidentity#NewDefaultAzureCredential
+	// https://pkg.go.dev/github.com/c-brooks/azure-sdk-for-go/sdk/azidentity#NewDefaultAzureCredential
 	credential, err := azidentity.NewDefaultAzureCredential(nil)
 
 	if err != nil {
@@ -72,7 +72,7 @@ func ExampleNewClient_configuringRetries() {
 	client, err = azservicebus.NewClientFromConnectionString(connectionString, &azservicebus.ClientOptions{
 		// NOTE: you don't need to configure these explicitly if you like the defaults.
 		// For more information see:
-		//  https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus#RetryOptions
+		//  https://pkg.go.dev/github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus#RetryOptions
 		RetryOptions: azservicebus.RetryOptions{
 			// MaxRetries specifies the maximum number of attempts a failed operation will be retried
 			// before producing an error.
@@ -93,7 +93,7 @@ func ExampleNewClient_configuringRetries() {
 
 func Example_enablingLogging() {
 	// Required import:
-	//   import azlog "github.com/Azure/azure-sdk-for-go/sdk/azcore/log"
+	//   import azlog "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/log"
 
 	// print log output to stdout
 	azlog.SetListener(func(event azlog.Event, s string) {

@@ -14,12 +14,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/checkpoints"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/blob"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/checkpoints"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/blob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
 	"github.com/joho/godotenv"
 	"github.com/microsoft/ApplicationInsights-Go/appinsights"
 )
@@ -364,7 +364,7 @@ func closeOrPanic(closeable interface {
 		// TODO: there's an interesting thing happening here when I close out the connection
 		// where it sometimes complains about it being idle. This is "ok" but I'd like to see
 		// why EH's behavior seems different than expected.
-		// Issue: https://github.com/Azure/azure-sdk-for-go/issues/19220
+		// Issue: https://github.com/c-brooks/azure-sdk-for-go/issues/19220
 
 		var eherr *azeventhubs.Error
 		if errors.As(err, &eherr) && eherr.Code == azeventhubs.ErrorCodeConnectionLost {

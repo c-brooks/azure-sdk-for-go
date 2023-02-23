@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest/model"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/automation/validate"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/automation/validate"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/utils"
 )
 
 type generateContext struct {

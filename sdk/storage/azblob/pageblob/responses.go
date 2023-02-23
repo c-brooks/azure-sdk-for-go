@@ -7,7 +7,7 @@
 package pageblob
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 )
 
 // CreateResponse contains the response from method Client.Create.

@@ -6,7 +6,7 @@
 
 package lease
 
-import "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 
 // BlobAcquireResponse contains the response from method BlobClient.AcquireLease.
 type BlobAcquireResponse = generated.BlobClientAcquireLeaseResponse

@@ -16,14 +16,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/streaming"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blockblob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/streaming"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blockblob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/container"
 )
 
 func handleError(err error) {
@@ -119,7 +119,7 @@ func Example_client_NewClient() {
 	}
 	serviceURL := fmt.Sprintf("https://%s.blob.core.windows.net/", accountName)
 
-	// https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/azidentity#DefaultAzureCredential
+	// https://pkg.go.dev/github.com/c-brooks/azure-sdk-for-go/sdk/azidentity#DefaultAzureCredential
 	cred, err := azidentity.NewDefaultAzureCredential(nil)
 	handleError(err)
 

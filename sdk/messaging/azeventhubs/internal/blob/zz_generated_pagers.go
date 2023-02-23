@@ -13,8 +13,8 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 )
 
 // containerClientListBlobFlatSegmentPager provides operations for iterating over paged responses.

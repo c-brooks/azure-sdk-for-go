@@ -7,10 +7,10 @@
 package service
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/container"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 	"time"
 )
 

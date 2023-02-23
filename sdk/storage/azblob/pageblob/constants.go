@@ -6,7 +6,7 @@
 
 package pageblob
 
-import "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 
 const (
 	// PageBytes indicates the number of bytes in a page (512).

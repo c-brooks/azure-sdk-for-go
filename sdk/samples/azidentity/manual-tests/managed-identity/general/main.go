@@ -8,8 +8,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
 )
 
 var c = flag.String("c", "", "optional client ID of a user assigned identity. Mutually exclusive with r.")

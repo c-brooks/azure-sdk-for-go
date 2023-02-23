@@ -11,16 +11,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/common"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/markdown"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/report"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/common"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/markdown"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/report"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/utils"
 	"github.com/ahmetb/go-linq/v3"
 )
 
 const (
-	sdkRoot            = "github.com/Azure/azure-sdk-for-go"
-	absoluteLinkPrefix = "https://github.com/Azure/azure-sdk-for-go/tree/main/"
+	sdkRoot            = "github.com/c-brooks/azure-sdk-for-go"
+	absoluteLinkPrefix = "https://github.com/c-brooks/azure-sdk-for-go/tree/main/"
 )
 
 type Writer struct {
@@ -119,7 +119,7 @@ func FindVersionTitles(lines []string, n int) []VersionTitleLine {
 }
 
 var (
-	newLinkFmt               = `https://github.com/Azure/azure-sdk-for-go/blob/%s/%s`
+	newLinkFmt               = `https://github.com/c-brooks/azure-sdk-for-go/blob/%s/%s`
 	versionNumberLineRegex   = regexp.MustCompile("^## `(.+)`$")
 	previousVersionLinkRegex = regexp.MustCompile(fmt.Sprintf(`\[details\]\((%sservices/.+)\)`, absoluteLinkPrefix))
 )
@@ -259,5 +259,5 @@ func getChangelogLink(name string) string {
 }
 
 func getPackageImportPath(p string) string {
-	return fmt.Sprintf("github.com/Azure/azure-sdk-for-go/%s", p)
+	return fmt.Sprintf("github.com/c-brooks/azure-sdk-for-go/%s", p)
 }

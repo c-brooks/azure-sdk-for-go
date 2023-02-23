@@ -7,9 +7,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/repo"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/report"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/repo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/report"
 	"github.com/spf13/cobra"
 )
 

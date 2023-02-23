@@ -7,7 +7,7 @@
 package azblob
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 )
 
 // PublicAccessType defines values for AccessType - private (default) or blob or container.

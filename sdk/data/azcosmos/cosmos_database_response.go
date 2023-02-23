@@ -6,7 +6,7 @@ package azcosmos
 import (
 	"net/http"
 
-	azruntime "github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	azruntime "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 )
 
 // DatabaseResponse represents the response from a database request.

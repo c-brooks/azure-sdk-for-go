@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/automation/pipeline"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/v2/common"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/repo"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/automation/pipeline"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/v2/common"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/repo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/utils"
 	"github.com/spf13/cobra"
 )
 

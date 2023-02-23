@@ -4,7 +4,7 @@
 package common
 
 import (
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/flags"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/flags"
 	"github.com/spf13/pflag"
 )
 

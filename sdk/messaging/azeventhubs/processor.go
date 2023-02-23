@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	azlog "github.com/Azure/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	azlog "github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
 )
 
 // processorOwnerLevel is the owner level we assign to every ProcessorPartitionClient
@@ -84,7 +84,7 @@ type StartPositions struct {
 // See [example_processor_test.go] for an example, and the function documentation
 // for [Run] for a more detailed description of how load balancing works.
 //
-// [example_processor_test.go]: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
+// [example_processor_test.go]: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
 type Processor struct {
 	ownershipUpdateInterval time.Duration
 	defaultStartPositions   StartPositions
@@ -113,7 +113,7 @@ type consumerClientForProcessor interface {
 // More information can be found in the documentation for the [azeventhubs.Processor]
 // type or the [example_processor_test.go] for an example.
 //
-// [example_processor_test.go]: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
+// [example_processor_test.go]: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
 func NewProcessor(consumerClient *ConsumerClient, checkpointStore CheckpointStore, options *ProcessorOptions) (*Processor, error) {
 	return newProcessorImpl(consumerClient, checkpointStore, options)
 }
@@ -180,7 +180,7 @@ func newProcessorImpl(consumerClient consumerClientForProcessor, checkpointStore
 //
 // See [example_processor_test.go] for an example of typical usage.
 //
-// [example_processor_test.go]: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
+// [example_processor_test.go]: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
 func (p *Processor) NextPartitionClient(ctx context.Context) *ProcessorPartitionClient {
 	<-p.runCalled
 
@@ -208,7 +208,7 @@ func (p *Processor) NextPartitionClient(ctx context.Context) *ProcessorPartition
 //
 // See [example_processor_test.go] for an example of typical usage.
 //
-// [example_processor_test.go]: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
+// [example_processor_test.go]: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
 func (p *Processor) Run(ctx context.Context) error {
 	err := p.runImpl(ctx)
 

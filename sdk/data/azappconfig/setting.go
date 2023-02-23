@@ -9,9 +9,9 @@ package azappconfig
 import (
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/data/azappconfig/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/data/azappconfig/internal/generated"
 )
 
 // Setting is a setting, defined by a unique combination of a Key and Label.

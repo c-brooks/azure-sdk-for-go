@@ -3,7 +3,7 @@
 
 package azservicebus
 
-import "github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/exported"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/exported"
 
 const (
 	// EventConn is used whenever we create a connection or any links (ie: receivers, senders).

@@ -7,15 +7,15 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest/model"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/common"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/common"
 	"github.com/hashicorp/go-multierror"
 )
 
 type RefreshInfo struct {
 	// AdditionalFlags are the additional options that will be used in the general refresh
 	AdditionalFlags []string `json:"additionalOptions,omitempty"`
-	// Packages are the full package identifier of the packages to refresh, eg 'github.com/Azure/azure-sdk-for-go/services/preview/securityinsight/mgmt/2019-01-01-preview/securityinsight'
+	// Packages are the full package identifier of the packages to refresh, eg 'github.com/c-brooks/azure-sdk-for-go/services/preview/securityinsight/mgmt/2019-01-01-preview/securityinsight'
 	Packages []string `json:"packages,omitempty"`
 }
 

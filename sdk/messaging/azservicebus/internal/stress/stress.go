@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/tests"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/tools"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/tests"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/tools"
 )
 
 func main() {

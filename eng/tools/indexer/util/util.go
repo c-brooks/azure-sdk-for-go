@@ -19,7 +19,7 @@ import (
 type PackageSet map[string]bool
 
 // GetIndexedPackages returns the set of packages that have already been indexed.
-// It finds all entries matching the regex `github\.com/Azure/azure-sdk-for-go/services/.*?"`.
+// It finds all entries matching the regex `github\.com/c-brooks/azure-sdk-for-go/services/.*?"`.
 func GetIndexedPackages(content io.Reader) (PackageSet, error) {
 	body, err := ioutil.ReadAll(content)
 	if err != nil {
@@ -32,7 +32,7 @@ func GetIndexedPackages(content io.Reader) (PackageSet, error) {
 
 	// scrape the content to create the package list
 	pkgs := PackageSet{}
-	regex := regexp.MustCompile(`github\.com/Azure/azure-sdk-for-go/services/.*?"`)
+	regex := regexp.MustCompile(`github\.com/c-brooks/azure-sdk-for-go/services/.*?"`)
 	finds := regex.FindAllString(string(body), -1)
 
 	for _, find := range finds {
@@ -44,7 +44,7 @@ func GetIndexedPackages(content io.Reader) (PackageSet, error) {
 }
 
 // GetPackagesForIndexing returns the set of packages, calculated from the specified directory, to be indexed.
-// Each directory entry is converted to a complete package path, e.g. "github.com/Azure/azure-sdk-for-go/services/foo/...".
+// Each directory entry is converted to a complete package path, e.g. "github.com/c-brooks/azure-sdk-for-go/services/foo/...".
 func GetPackagesForIndexing(dir string) (PackageSet, error) {
 	leafDirs := []string{}
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {

@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs"
 )
 
 // Example_consumingEventsUsingConsumerClient shows how to start consuming events in partitions
@@ -25,7 +25,7 @@ import (
 //
 // For an example of that see [example_processor_test.go].
 //
-// [example_processor_test.go]: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
+// [example_processor_test.go]: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
 func Example_consumingEventsUsingConsumerClient() {
 	eventHubNamespace := os.Getenv("EVENTHUB_NAMESPACE") // <ex: myeventhubnamespace.servicebus.windows.net>
 	eventHubName := os.Getenv("EVENTHUB_NAME")

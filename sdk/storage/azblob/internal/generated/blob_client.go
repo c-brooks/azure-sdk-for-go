@@ -6,7 +6,7 @@
 
 package generated
 
-import "github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 
 func (client *BlobClient) Endpoint() string {
 	return client.endpoint

@@ -6,7 +6,7 @@
 
 package exported
 
-import "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 
 const SnapshotTimeFormat = "2006-01-02T15:04:05.0000000Z07:00"
 

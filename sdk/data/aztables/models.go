@@ -6,8 +6,8 @@ package aztables
 import (
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	generated "github.com/Azure/azure-sdk-for-go/sdk/data/aztables/internal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	generated "github.com/c-brooks/azure-sdk-for-go/sdk/data/aztables/internal"
 )
 
 // CorsRule - CORS is an HTTP feature that enables a web application running under one domain to access resources in another domain. Web browsers implement

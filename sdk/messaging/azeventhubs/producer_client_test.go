@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/sas"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/sas"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/test"
 	"github.com/stretchr/testify/require"
 )
 
@@ -232,7 +232,7 @@ func TestProducerClient_AMQPAnnotatedMessages(t *testing.T) {
 				"appProperty1": "appProperty1Value",
 			},
 			// It doesn't appear that we can't round-trip these attributes:
-			// Issue: https://github.com/Azure/azure-sdk-for-go/issues/19154
+			// Issue: https://github.com/c-brooks/azure-sdk-for-go/issues/19154
 			DeliveryAnnotations: map[any]any{
 				"deliveryAnnotation1": "deliveryAnnotation1Value",
 			},
@@ -317,7 +317,7 @@ func TestProducerClient_AMQPAnnotatedMessages(t *testing.T) {
 	}, sequenceMessage.ApplicationProperties)
 
 	// It doesn't appear that we can round-trip this attribute:
-	// https://github.com/Azure/azure-sdk-for-go/issues/19154
+	// https://github.com/c-brooks/azure-sdk-for-go/issues/19154
 	// require.Equal(t, uint32(101), sequenceMessage.Header.DeliveryCount)
 	// require.Equal(t, map[any]any{
 	// 	"deliveryAnnotation1": "deliveryAnnotation1Value",

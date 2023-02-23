@@ -5,5 +5,5 @@
 // Licensed under the MIT License.
 
 // Package azservicebus provides clients for sending and receiving messages with Azure Service Bus.
-// NOTE: for creating and managing entities, use the `Client` in the `github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/admin` package.
+// NOTE: for creating and managing entities, use the `Client` in the `github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/admin` package.
 package azservicebus

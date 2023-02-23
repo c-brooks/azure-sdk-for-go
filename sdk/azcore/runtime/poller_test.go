@@ -18,13 +18,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/async"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/pollers/body"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/pollers"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/pollers/async"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/pollers/body"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/mock"
 	"github.com/stretchr/testify/require"
 )
 

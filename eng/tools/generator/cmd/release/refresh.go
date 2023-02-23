@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/refresh"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/config"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/repo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/refresh"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/config"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/repo"
 	"github.com/go-git/go-git/v5/plumbing"
 )
 

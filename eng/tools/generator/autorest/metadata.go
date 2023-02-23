@@ -6,7 +6,7 @@ package autorest
 import (
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest/model"
 )
 
 func GetAdditionalOptions(metadata GenerationMetadata) model.Options {

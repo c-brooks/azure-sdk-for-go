@@ -7,8 +7,8 @@
 package azcontainerregistry
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/cloud"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

@@ -9,12 +9,12 @@ package azcontainerregistry_test
 import (
 	"context"
 	"fmt"
-	"github.com/Azure/azure-sdk-for-go/sdk/containers/azcontainerregistry"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/containers/azcontainerregistry"
 	"io"
 	"log"
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
 )
 
 var client *azcontainerregistry.Client

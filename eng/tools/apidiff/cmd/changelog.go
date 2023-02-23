@@ -9,8 +9,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/markdown"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/report"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/markdown"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/report"
 	"github.com/spf13/cobra"
 )
 
@@ -160,7 +160,7 @@ type tableRow struct {
 }
 
 func convertFullPackagePathToPackageNameAndAPIVersion(packageName string) (string, string, error) {
-	// packageName is a string like "github.com/Azure/azure-sdk-for-go/services/consumption/mgmt/2018-08-31/consumption"
+	// packageName is a string like "github.com/c-brooks/azure-sdk-for-go/services/consumption/mgmt/2018-08-31/consumption"
 	segments := strings.Split(packageName, "/")
 	if len(segments) < 2 {
 		return "", "", fmt.Errorf("expecting package name '%s' to have at least two segments", packageName)

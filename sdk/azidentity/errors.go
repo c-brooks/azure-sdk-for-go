@@ -14,7 +14,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/errorinfo"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/errorinfo"
 	msal "github.com/AzureAD/microsoft-authentication-library-for-go/apps/errors"
 )
 

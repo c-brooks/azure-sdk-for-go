@@ -6,7 +6,7 @@
 
 package azquery
 
-import "github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/cloud"
 
 // Cloud Service Names for Monitor Query Logs and Metrics, used to identify the respective cloud.ServiceConfiguration
 const (

@@ -12,7 +12,7 @@ package azkeys
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
 	"reflect"
 	"strings"
 	"time"

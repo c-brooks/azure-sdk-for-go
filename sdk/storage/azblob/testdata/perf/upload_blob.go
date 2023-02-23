@@ -10,10 +10,10 @@ import (
 	"io"
 	"os"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/perf"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blockblob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/container"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/perf"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blockblob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/container"
 )
 
 type uploadTestOptions struct {

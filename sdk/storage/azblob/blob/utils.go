@@ -9,7 +9,7 @@ package blob
 import (
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/sas"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/sas"
 )
 
 // ObjectReplicationRules struct

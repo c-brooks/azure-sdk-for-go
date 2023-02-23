@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/delta"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/delta"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
 )
 
 var oContent exports.Content

@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
 )
 
 func TestLoggingDefault(t *testing.T) {

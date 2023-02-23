@@ -13,7 +13,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
 )
 
 // HTTPGetter is a function type that refers to a method that performs an HTTP GET operation.

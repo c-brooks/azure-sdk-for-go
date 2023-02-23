@@ -10,12 +10,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest/model"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/template"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/common"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/repo"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/template"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/common"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/repo"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
 	"github.com/Masterminds/semver"
 )
 

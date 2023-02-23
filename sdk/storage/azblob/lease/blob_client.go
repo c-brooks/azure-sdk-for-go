@@ -11,13 +11,13 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/appendblob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/blockblob"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/base"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/shared"
-	"github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/pageblob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/appendblob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/blockblob"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/base"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/pageblob"
 )
 
 // BlobClient provides lease functionality for the underlying blob client.

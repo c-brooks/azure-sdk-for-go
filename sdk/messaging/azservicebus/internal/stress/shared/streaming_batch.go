@@ -8,7 +8,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus"
 )
 
 // internalBatchSender is an interface for an *azservicebus.Sender

@@ -6,7 +6,7 @@ package admin
 import (
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/atom"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/atom"
 )
 
 // EntityStatus represents the current status of the entity.

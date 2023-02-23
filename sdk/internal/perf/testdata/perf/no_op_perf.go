@@ -6,7 +6,7 @@ package main
 import (
 	"context"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/perf"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/perf"
 )
 
 type globalNoOpPerfTest struct {

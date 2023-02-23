@@ -6,7 +6,7 @@ package azservicebus_test
 import (
 	"log"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus"
 )
 
 // Helper functions to make the main examples compilable

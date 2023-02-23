@@ -12,7 +12,7 @@
 // See [example_processor_test.go] for an example that uses the [checkpoints.BlobStore] with
 // a [Processor].
 //
-// [Processor]: https://pkg.go.dev/github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs#Processor
-// [example_processor_test.go]: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
+// [Processor]: https://pkg.go.dev/github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs#Processor
+// [example_processor_test.go]: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_processor_test.go
 
 package checkpoints

@@ -16,9 +16,9 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/exported"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/shared"
 )
 
 // the well-known set of LRO status/provisioning state values.

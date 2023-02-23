@@ -11,8 +11,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 )
 
 // BlobClient represents a URL to an Azure Storage blob; the blob may be a block blob, append blob, or page blob.

@@ -10,9 +10,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/checkpoints"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/checkpoints"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/exported"
 )
 
 // Example_consumingEventsUsingProcessor shows how to use the [Processor] type.
@@ -32,7 +32,7 @@ import (
 // If you prefer to manually allocate partitions or to have more control over the process you can use
 // the [ConsumerClient] type. See [example_consuming_events_test.go] for an example.
 //
-// [example_consuming_events_test.go]: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_consuming_events_test.go
+// [example_consuming_events_test.go]: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/messaging/azeventhubs/example_consuming_events_test.go
 func Example_consumingEventsUsingProcessor() {
 	// The Processor makes it simpler to do distributed consumption of an Event Hub.
 	// It automatically coordinates with other Processor instances to ensure balanced

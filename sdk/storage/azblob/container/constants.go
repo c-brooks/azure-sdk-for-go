@@ -6,7 +6,7 @@
 
 package container
 
-import "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
+import "github.com/c-brooks/azure-sdk-for-go/sdk/storage/azblob/internal/generated"
 
 // AccessTier defines values for blob access tiers.
 type AccessTier = generated.AccessTier

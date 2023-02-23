@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest/model"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/report"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/utils"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest/model"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/report"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/utils"
 )
 
 // ChangelogContext describes all necessary data that would be needed in the processing of changelogs

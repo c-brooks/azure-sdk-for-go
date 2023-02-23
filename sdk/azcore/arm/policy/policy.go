@@ -9,7 +9,7 @@ package policy
 import (
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
 )
 
 // BearerTokenOptions configures the bearer token policy's behavior.

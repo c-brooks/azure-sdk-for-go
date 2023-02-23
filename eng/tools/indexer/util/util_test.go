@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/indexer/util"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/indexer/util"
 )
 
 func Test_GetIndexedPackages(t *testing.T) {
@@ -28,11 +28,11 @@ func Test_GetIndexedPackages(t *testing.T) {
 	}
 	// spot-check a few packages
 	pkgs := []string{
-		"github.com/Azure/azure-sdk-for-go/services/authorization/mgmt/2015-07-01/authorization",
-		"github.com/Azure/azure-sdk-for-go/services/classic/management",
-		"github.com/Azure/azure-sdk-for-go/services/cognitiveservices/v2.0/luis/programmatic",
-		"github.com/Azure/azure-sdk-for-go/services/operationalinsights/mgmt/2015-11-01-preview/operationalinsights",
-		"github.com/Azure/azure-sdk-for-go/services/web/mgmt/2016-09-01/web",
+		"github.com/c-brooks/azure-sdk-for-go/services/authorization/mgmt/2015-07-01/authorization",
+		"github.com/c-brooks/azure-sdk-for-go/services/classic/management",
+		"github.com/c-brooks/azure-sdk-for-go/services/cognitiveservices/v2.0/luis/programmatic",
+		"github.com/c-brooks/azure-sdk-for-go/services/operationalinsights/mgmt/2015-11-01-preview/operationalinsights",
+		"github.com/c-brooks/azure-sdk-for-go/services/web/mgmt/2016-09-01/web",
 	}
 	for _, pkg := range pkgs {
 		if indexed, ok := ps[pkg]; !ok {
@@ -46,7 +46,7 @@ func Test_GetIndexedPackages(t *testing.T) {
 }
 
 func Test_GetPackagesForIndexing(t *testing.T) {
-	ps, err := util.GetPackagesForIndexing("./testdata/github.com/Azure/azure-sdk-for-go/services")
+	ps, err := util.GetPackagesForIndexing("./testdata/github.com/c-brooks/azure-sdk-for-go/services")
 	if err != nil {
 		t.Log(err)
 		t.Fail()
@@ -58,10 +58,10 @@ func Test_GetPackagesForIndexing(t *testing.T) {
 	}
 	// verify packages
 	pkgs := []string{
-		"github.com/Azure/azure-sdk-for-go/services/zed/mgmt/2017-06-01/zed",
-		"github.com/Azure/azure-sdk-for-go/services/zed/v1.0/zeddp",
-		"github.com/Azure/azure-sdk-for-go/services/bar/mgmt/2017-01-01/bar",
-		"github.com/Azure/azure-sdk-for-go/services/foo/mgmt/2018-01-01/foo",
+		"github.com/c-brooks/azure-sdk-for-go/services/zed/mgmt/2017-06-01/zed",
+		"github.com/c-brooks/azure-sdk-for-go/services/zed/v1.0/zeddp",
+		"github.com/c-brooks/azure-sdk-for-go/services/bar/mgmt/2017-01-01/bar",
+		"github.com/c-brooks/azure-sdk-for-go/services/foo/mgmt/2018-01-01/foo",
 	}
 	for _, pkg := range pkgs {
 		if indexed, ok := ps[pkg]; !ok {

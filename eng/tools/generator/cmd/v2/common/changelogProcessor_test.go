@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/cmd/v2/common"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/cmd/v2/common"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
 	"github.com/stretchr/testify/assert"
 )
 

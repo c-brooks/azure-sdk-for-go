@@ -88,7 +88,7 @@ func findModuleDirectories(root string) []string {
 			path = strings.ReplaceAll(path, "\\", "/")
 			path = strings.ReplaceAll(path, "/go.mod", "")
 			parts := strings.Split(path, "/sdk/")
-			formatted := fmt.Sprintf("github.com/Azure/azure-sdk-for-go/sdk/%s", parts[1])
+			formatted := fmt.Sprintf("github.com/c-brooks/azure-sdk-for-go/sdk/%s", parts[1])
 			ret = append(ret, formatted)
 		}
 		return nil
@@ -145,7 +145,7 @@ func matchModulesAndTags(goModFiles []string, tags []string) []Module {
 	var m []Module
 
 	for _, goModFile := range goModFiles {
-		packagePath := strings.Split(goModFile, "github.com/Azure/azure-sdk-for-go/sdk/")
+		packagePath := strings.Split(goModFile, "github.com/c-brooks/azure-sdk-for-go/sdk/")
 		relativePackagePath := packagePath[1]
 		version, err := findLatestTag(relativePackagePath, tags)
 		if err != nil {
@@ -186,7 +186,7 @@ func BuildModFile(modules []Module, serviceDirectory string) error {
 	handle(err)
 	defer f.Close()
 
-	_, err = f.WriteString(fmt.Sprintf("module github.com/Azure/azure-sdk-for-go/sdk/smoketests\n\n%s\n\n", getVersion()))
+	_, err = f.WriteString(fmt.Sprintf("module github.com/c-brooks/azure-sdk-for-go/sdk/smoketests\n\n%s\n\n", getVersion()))
 	if err != nil {
 		return err
 	}

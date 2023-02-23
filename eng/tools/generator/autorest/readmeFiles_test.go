@@ -8,7 +8,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/generator/autorest"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/generator/autorest"
 )
 
 func TestReadBatchTags(t *testing.T) {

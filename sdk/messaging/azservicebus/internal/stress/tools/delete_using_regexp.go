@@ -10,7 +10,7 @@ import (
 	"os"
 	"regexp"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/stress/shared"
 )
 
 func DeleteUsingRegexp(remainingArgs []string) int {

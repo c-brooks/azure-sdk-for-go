@@ -4,7 +4,7 @@
 package aztables
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
 )
 
 // ClientOptions are the optional parameters for the NewClient method

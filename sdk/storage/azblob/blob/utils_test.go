@@ -7,7 +7,7 @@
 package blob
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
 	"testing"
 
 	"github.com/stretchr/testify/require"

@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/delta"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/markdown"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/delta"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/markdown"
 )
 
 // Package represents a per-package report that contains additive and breaking changes.

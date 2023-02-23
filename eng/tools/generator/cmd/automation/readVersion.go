@@ -6,7 +6,7 @@ package automation
 import (
 	"fmt"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/internal/exports"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/internal/exports"
 )
 
 // ReadVersion reads the version of azure-sdk-for-go

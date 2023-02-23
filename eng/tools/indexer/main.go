@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/eng/tools/indexer/util"
+	"github.com/c-brooks/azure-sdk-for-go/eng/tools/indexer/util"
 )
 
 // adds any missing SDK packages to godoc.org
@@ -35,7 +35,7 @@ func main() {
 	}
 
 	// this URL will return the set of packages that have been indexed
-	resp, err := http.DefaultClient.Get("https://godoc.org/github.com/Azure/azure-sdk-for-go/services")
+	resp, err := http.DefaultClient.Get("https://godoc.org/github.com/c-brooks/azure-sdk-for-go/services")
 	if err != nil {
 		panic(err)
 	}

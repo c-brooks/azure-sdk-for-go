@@ -4,7 +4,7 @@
 package exported
 
 import (
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
 )
 
 // NOTE: these are publicly exported via type-aliasing in azblob/log.go

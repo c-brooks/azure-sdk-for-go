@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	azruntime "github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	azruntime "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
 )
 
 func newCosmosError(response *http.Response) error {

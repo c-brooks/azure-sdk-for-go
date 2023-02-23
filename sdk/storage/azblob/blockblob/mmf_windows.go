@@ -48,7 +48,7 @@ func (m *mmb) delete() {
 	err := syscall.UnmapViewOfFile(addr)
 	if err != nil {
 		// if we get here, there is likely memory corruption.
-		// please open an issue https://github.com/Azure/azure-sdk-for-go/issues
+		// please open an issue https://github.com/c-brooks/azure-sdk-for-go/issues
 		panic(fmt.Sprintf("UnmapViewOfFile error: %v", err))
 	}
 }

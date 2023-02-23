@@ -12,10 +12,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/log"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal"
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azservicebus/internal/exported"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/log"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azservicebus/internal/exported"
 )
 
 // Client provides methods to create Sender and Receiver
@@ -25,7 +25,7 @@ type Client struct {
 	// is just to make it the first value in the struct
 	// See:
 	//   Godoc: https://pkg.go.dev/sync/atomic#pkg-note-BUG
-	//   PR: https://github.com/Azure/azure-sdk-for-go/pull/16847
+	//   PR: https://github.com/c-brooks/azure-sdk-for-go/pull/16847
 	linkCounter uint64
 
 	linksMu   *sync.Mutex
@@ -72,7 +72,7 @@ type NewWebSocketConnArgs = exported.NewWebSocketConnArgs
 // NewClient creates a new Client for a Service Bus namespace, using a TokenCredential.
 // A Client allows you create receivers (for queues or subscriptions) and senders (for queues and topics).
 // fullyQualifiedNamespace is the Service Bus namespace name (ex: myservicebus.servicebus.windows.net)
-// credential is one of the credentials in the `github.com/Azure/azure-sdk-for-go/sdk/azidentity` package.
+// credential is one of the credentials in the `github.com/c-brooks/azure-sdk-for-go/sdk/azidentity` package.
 func NewClient(fullyQualifiedNamespace string, credential azcore.TokenCredential, options *ClientOptions) (*Client, error) {
 	if fullyQualifiedNamespace == "" {
 		return nil, errors.New("fullyQualifiedNamespace must not be empty")

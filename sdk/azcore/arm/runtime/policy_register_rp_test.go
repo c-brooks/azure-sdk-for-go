@@ -15,13 +15,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	armpolicy "github.com/Azure/azure-sdk-for-go/sdk/azcore/arm/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/cloud"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/log"
-	azpolicy "github.com/Azure/azure-sdk-for-go/sdk/azcore/policy"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/runtime"
-	"github.com/Azure/azure-sdk-for-go/sdk/internal/mock"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	armpolicy "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/arm/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/cloud"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/log"
+	azpolicy "github.com/c-brooks/azure-sdk-for-go/sdk/azcore/policy"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/runtime"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/internal/mock"
 )
 
 const rpUnregisteredResp = `{

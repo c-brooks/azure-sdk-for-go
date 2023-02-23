@@ -8,7 +8,7 @@ package amqpwrap
 import (
 	"context"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/messaging/azeventhubs/internal/go-amqp"
 )
 
 // AMQPReceiver is implemented by *amqp.Receiver

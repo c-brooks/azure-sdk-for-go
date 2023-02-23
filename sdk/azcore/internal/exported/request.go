@@ -15,7 +15,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/internal/shared"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/internal/shared"
 )
 
 // Request is an abstraction over the creation of an HTTP request as it passes through the pipeline.

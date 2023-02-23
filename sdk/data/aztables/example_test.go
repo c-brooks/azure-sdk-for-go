@@ -12,10 +12,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore/to"
-	"github.com/Azure/azure-sdk-for-go/sdk/azidentity"
-	"github.com/Azure/azure-sdk-for-go/sdk/data/aztables"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore/to"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azidentity"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/data/aztables"
 )
 
 func ExampleNewSharedKeyCredential() {
@@ -432,7 +432,7 @@ func ExampleClient_NewListEntitiesPager() {
 
 	// For more information about writing query strings, check out:
 	//  - API Documentation: https://docs.microsoft.com/en-us/rest/api/storageservices/querying-tables-and-entities
-	//  - README samples: https://github.com/Azure/azure-sdk-for-go/blob/main/sdk/data/aztables/README.md#writing-filters
+	//  - README samples: https://github.com/c-brooks/azure-sdk-for-go/blob/main/sdk/data/aztables/README.md#writing-filters
 	filter := fmt.Sprintf("PartitionKey eq '%s' or PartitionKey eq '%s'", "pk001", "pk002")
 	pager := client.NewListEntitiesPager(&aztables.ListEntitiesOptions{Filter: &filter})
 

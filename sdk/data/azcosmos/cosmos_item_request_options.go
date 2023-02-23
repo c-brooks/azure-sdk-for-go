@@ -6,7 +6,7 @@ package azcosmos
 import (
 	"strings"
 
-	"github.com/Azure/azure-sdk-for-go/sdk/azcore"
+	"github.com/c-brooks/azure-sdk-for-go/sdk/azcore"
 )
 
 // ItemOptions includes options for operations on items.
